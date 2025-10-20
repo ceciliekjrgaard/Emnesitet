@@ -1,0 +1,78 @@
+header {
+  display: grid;
+  background-color: #33569c20;
+  align-items: center;
+  /* padding: 3rem 1rem; */
+  color: #33569c;
+  font-family: Kodchasan;
+  margin: 1em;
+  border-bottom: #33569c;
+  border-top: #33569c;
+  border-left: #33569c;
+  border-right: #33569c;
+}
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  height: 50px;
+}
+
+p {
+  line-height: 2em;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.h2 {
+  text-align: center;
+  margin: 20px;
+  font-size: 2rem;
+  font-family: Kameron;
+}
+.h3 {
+  text-align: center;
+  margin: 20px;
+  font-size: 2rem;
+  padding: 20px;
+  background-color: #f2f2f2;
+  color: #33569c;
+  font-family: Kameron;
+}
+
+.overskrift {
+  text-align: center;
+  margin: 80px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  grid-column: span;
+  color: #33569c;
+}
+.cta-knap {
+  background-color: #33569c;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-knap:hover {
+  background-color: #2a457e;
+}
