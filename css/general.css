@@ -11,6 +11,11 @@ header {
   border-left: #33569c;
   border-right: #33569c;
 }
+.main {
+  background-image: url(../gallery/billede.webp);
+  background-size: cover;
+  background-position: center;
+}
 .header_top {
   display: flex;
   justify-content: space-between;
@@ -75,4 +80,15 @@ img {
 
 .cta-knap:hover {
   background-color: #2a457e;
+}
+.order {
+  order: -1;
+}
+.tekstboks {
+  border-top: #ffffff;
+}
+
+header a {
+  text-decoration: none;
+  color: #33569c;
 }
